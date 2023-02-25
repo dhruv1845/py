@@ -28,7 +28,7 @@ def sum_numbers(file_path):
 def sum_tokens(tokens):
     sum = 0
     for token in tokens:
-        sum += int(token)
+        sum += int(len(token))
     return sum
 
 sum_numbers("C:\\Code\\Py\\Basics\\input.txt")
